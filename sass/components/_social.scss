@@ -1,0 +1,11 @@
+.social {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 7px;
+  }
+
+  &__icon {
+    fill: $accent-color;
+  }
+}
